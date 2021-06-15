@@ -1,0 +1,187 @@
+
+                                                     
+  Too many arguments, expected arguments "command".  
+                                                     
+
+
+                                                     
+  Too many arguments, expected arguments "command".  
+                                                     
+
+111
+2
+1
+2
+1
+2
+1
+2
+1
+2
+1
+1
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'App\Console\Commands\Time' not found
+
+  at /Users/nobuharumurata/php_projects/sampleCommandSchedule/app/Console/Commands/sampleCommand.php:44
+    40|     {
+    41|         //
+    42|         // echo 1;
+    43|         echo $this->argument('id') . "\n";
+  > 44|         echo Time::now;
+    45| 
+    46|         // $user = User::find($this->argument('id'));
+    47|         // echo $user->name . "\n";
+    48|         // echo $user->email . "\n";
+
+  Exception trace:
+
+  1   App\Console\Commands\sampleCommand::handle()
+      /Users/nobuharumurata/php_projects/sampleCommandSchedule/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:32
+
+  2   call_user_func_array([])
+      /Users/nobuharumurata/php_projects/sampleCommandSchedule/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:32
+
+  Please use the argument -v to see more details.
+2
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'App\Console\Commands\Time' not found
+
+  at /Users/nobuharumurata/php_projects/sampleCommandSchedule/app/Console/Commands/sampleCommand.php:44
+    40|     {
+    41|         //
+    42|         // echo 1;
+    43|         echo $this->argument('id') . "\n";
+  > 44|         echo Time::now;
+    45| 
+    46|         // $user = User::find($this->argument('id'));
+    47|         // echo $user->name . "\n";
+    48|         // echo $user->email . "\n";
+
+  Exception trace:
+
+  1   App\Console\Commands\sampleCommand::handle()
+      /Users/nobuharumurata/php_projects/sampleCommandSchedule/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:32
+
+  2   call_user_func_array([])
+      /Users/nobuharumurata/php_projects/sampleCommandSchedule/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:32
+
+  Please use the argument -v to see more details.
+1
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Carbon' not found
+
+  at /Users/nobuharumurata/php_projects/sampleCommandSchedule/app/Console/Commands/sampleCommand.php:45
+    41|     {
+    42|         //
+    43|         // echo 1;
+    44|         echo $this->argument('id') . "\n";
+  > 45|         echo Carbon::now;
+    46| 
+    47|         // $user = User::find($this->argument('id'));
+    48|         // echo $user->name . "\n";
+    49|         // echo $user->email . "\n";
+
+  Exception trace:
+
+  1   App\Console\Commands\sampleCommand::handle()
+      /Users/nobuharumurata/php_projects/sampleCommandSchedule/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:32
+
+  2   call_user_func_array([])
+      /Users/nobuharumurata/php_projects/sampleCommandSchedule/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:32
+
+  Please use the argument -v to see more details.
+1
+2021-06-15 12:57:01
+1
+2021-06-15 12:58:01
+1
+2021-06-15 12:59:01
+1
+2021-06-15 13:00:01
+2
+2021-06-15 13:00:01
+1
+2021-06-15 13:01:05
+1
+2021-06-15 13:02:01
+1
+2021-06-15 13:03:00
+1
+2021-06-15 13:04:02
+1
+2021-06-15 13:05:00
+2
+2021-06-15 13:05:01
+1
+2021-06-15 13:06:00
+1
+2021-06-15 13:07:01
+1
+2021-06-15 13:08:01
+1
+2021-06-15 13:09:01
+1
+2021-06-15 13:10:00
+2
+2021-06-15 13:10:01
+1
+2021-06-15 13:11:00
+1
+2021-06-15 13:12:01
+1
+2021-06-15 13:13:00
+1
+2021-06-15 13:14:01
+1
+2021-06-15 13:15:00
+2
+2021-06-15 13:15:00
+1
+2021-06-15 13:16:01
+1
+2021-06-15 13:17:00
+1
+2021-06-15 13:18:01
+1
+2021-06-15 13:19:00
+1
+2021-06-15 13:20:00
+2
+2021-06-15 13:20:00
+1
+2021-06-15 13:21:01
+1
+2021-06-15 13:22:00
+1
+2021-06-15 13:23:01
+1
+2021-06-15 13:24:01
+1
+2021-06-15 13:25:02
+2
+2021-06-15 13:25:02
+1
+2021-06-15 13:26:00
+1
+2021-06-15 13:27:01
+1
+2021-06-15 13:28:00
+1
+2021-06-15 13:29:02
+1
+2021-06-15 13:30:01
+2
+2021-06-15 13:30:01
+1
+2021-06-15 13:31:01
+1
+2021-06-15 13:32:00
+1
+2021-06-15 13:33:01
+1
+2021-06-15 13:34:02
+1
+2021-06-15 13:35:00
+2
+2021-06-15 13:35:00
