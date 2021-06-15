@@ -70,3 +70,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+## Cron登録
+```
+* * * * * cd /Users/nobuharumurata/php_projects/sampleCommandSchedule && php artisan schedule:run >> /dev/null 2>&1
+```
